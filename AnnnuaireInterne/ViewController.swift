@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     private var currentToken = ""
     
     let viewModel = ReCAPTCHAViewModel(
-        siteKey: "6LeUTakhAAAAAD7qDsrMSySky7YaUf4mKGEa8QcY",
-        url: URL(string: "https://www.google.com/recaptcha/admin/site/565010968/settings")!
+        siteKey: "$site_key",
+        url: URL(string: "https://www.google.com/recaptcha/admin/site/XXXXXXXXX/settings")!
     )
     
     @IBOutlet weak var genererBtn: UIButton!
